@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./por-pais.component.css']
 })
 export class PorPaisComponent {
+  termino: string= "";
 
+  buscar(){
+    console.log(this.termino)
+  }
 }
