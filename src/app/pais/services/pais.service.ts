@@ -9,7 +9,7 @@ import { Country } from '../interfaces/pais.interface';
 export class PaisService {
 
   private apiUrl: string = "https://restcountries.com/v3.1"
-
+  
   constructor( private http: HttpClient) { }
 
   buscarPais(termino: string): Observable<Country[]> {

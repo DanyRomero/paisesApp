@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Country } from '../../interfaces/pais.interface';
 
 @Component({
   selector: 'app-por-capital',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
  
 })
 export class PorCapitalComponent {
+  paises: Country[] = [];
+  termino: string = '';
+  hayError: boolean = false
 
+  buscar(termino: string){
+    console.log(termino)
+  }
+  sugerencias(){
+
+  }
 }
