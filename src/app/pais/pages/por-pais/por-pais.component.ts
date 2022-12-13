@@ -30,4 +30,9 @@ export class PorPaisComponent {
      
     })
   }
+
+  sugerencias(){
+    this.hayError= false;
+    
+  }
 }
